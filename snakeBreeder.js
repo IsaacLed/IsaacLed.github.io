@@ -73,11 +73,6 @@ class Snake {
     setLocation(enclosure){
         this.#location = enclosure;
     }
-    addSnake(name, age, gender, location){
-        let newSnake= new Snake(name, age, gender, location);
-        this.snake.push(newSnake);
-        console.log(name + "was just added to your snakes!");
-    }
     getName(){
         return this.#name;
     }
