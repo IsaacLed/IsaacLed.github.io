@@ -75,7 +75,7 @@ class Snake {
     }
     addSnake(name, age, gender, location){
         let newSnake= new Snake(name, age, gender, location);
-        this.#snake.push(newSnake);
+        this.snake.push(newSnake);
         console.log(name + "was just added to your snakes!");
     }
     getName(){
